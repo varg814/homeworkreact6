@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Main from "./components/Main/Main";
-import Done from "./components/Done/Done";
+import Main from "./components/Main/Main.jsx";
+import Done from "./components/Done/Done.jsx";
 
 function App() {
   const [clickedNumber, setClickedNumber] = useState(null);
